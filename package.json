@@ -1,0 +1,9 @@
+{
+  "name": "bizpilot-pro-system-v4-1-corrected",
+  "version": "4.1.1",
+  "private": true,
+  "description": "BizPilot Pro System v4.1 corrected package",
+  "scripts": {
+    "start": "node server.js"
+  }
+}

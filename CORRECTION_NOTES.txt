@@ -1,0 +1,15 @@
+BizPilot Pro System v4.1 - correction notes
+
+The original ZIP was incomplete. index.html references style.css, manifest.json and icons,
+while the JavaScript expects a backend API. Those required files were missing from the ZIP.
+
+This corrected package restores the missing frontend assets and a Node server baseline so the
+app can load and the account/cloud API can run.
+
+IMPORTANT:
+The supplied app.js still contains the original Pro/Pesapal payment calls. The restored
+server is the free backend baseline and does NOT implement Pesapal payment processing.
+Therefore Pro checkout/payment functionality is not restored by this correction.
+
+If the intended final app is the FREE BizPilot version, use the free package instead and
+remove the Pro/Pesapal UI and calls.
